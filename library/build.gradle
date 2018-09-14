@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '23.0.3'
+    //buildToolsVersion '23.0.3'
 
     defaultConfig {
         minSdkVersion 9
@@ -19,13 +19,13 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_6
-        targetCompatibility JavaVersion.VERSION_1_6
+        //sourceCompatibility JavaVersion.VERSION_1_6
+        //targetCompatibility JavaVersion.VERSION_1_6
     }
 }
 
 dependencies {
-    compile 'cz.msebera.android:httpclient:4.3.6'
+    implementation 'cz.msebera.android:httpclient:4.3.6'
 }
 
 android.libraryVariants.all { variant ->
