@@ -1,4 +1,4 @@
-Asynchronous Http Client for Android
+Asynchronous Http Client for Android gradle:3.1.4
 ====================================
 [![Build Status](https://travis-ci.org/loopj/android-async-http.png?branch=master)](https://travis-ci.org/loopj/android-async-http)
 
